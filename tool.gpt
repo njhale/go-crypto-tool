@@ -1,10 +1,4 @@
 ---
-Name: Crypto
-Metadata: bundle: true
-Description: Tools providing common cryptographic functions
-Share Tools: Hash
-
----
 Name: Hash
 Description: Generate a hash of data using the given algorithm and return the result as a hexadecimal string
 Param: data: The data to hash

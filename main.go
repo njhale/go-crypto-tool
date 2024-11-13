@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/njhale/go-crypto-tool/commands"
+	"github.com/otto8-ai/go-hash-tool/commands"
 )
 
 func main() {
