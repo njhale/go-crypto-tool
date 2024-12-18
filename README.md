@@ -14,7 +14,7 @@ git clone git@github.com:obot-platform/go-hash-tool
 
 ## Tool Repo Structure
 
-The directory tree below highlights the files required to implement `Hash` in Go and package it for `Obot`.
+The directory tree below highlights the files required to implement `Hash` in Go and package it for Obot.
 
 ```
 go-hash-tool
@@ -32,7 +32,7 @@ go-hash-tool
 
 ## Defining the `Hash` Tool
 
-The `tool.gpt` file contains [GPTScript Tool Definitions](https://docs.gptscript.ai/tools/gpt-file-reference) which describe a set of tools that can be used by agents in `Obot`.
+The `tool.gpt` file contains [GPTScript Tool Definitions](https://docs.gptscript.ai/tools/gpt-file-reference) which describe a set of tools that can be used by agents in Obot.
 Every tool repository must have a `tool.gpt` file in its root directory.
 
 The tools defined in this file must have a `Name` and `Description` that will help agents understand what the tool does, what it returns (if anything), and all the `Parameters` it takes.
